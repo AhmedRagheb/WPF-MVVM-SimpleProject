@@ -9,5 +9,6 @@ This project not focus on Xaml and UI, but mainly focus on these topics
 + Dependancy Injection Using AutoFac
 + Unit Testing
 + Three Tier layers (Data, Services, UI)
++ Entity Framework Code First
 
 Thanks,
