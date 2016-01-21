@@ -1,0 +1,40 @@
+C:\Users\Ragheb\Downloads\packages\TestProjectWPF.UITests\obj\Debug\TestProjectWPF.UITests.csprojResolveAssemblyReference.cache
+C:\Users\Ragheb\Downloads\packages\TestProjectWPF.UITests\bin\Debug\TestProjectWPF.UITests.dll
+C:\Users\Ragheb\Downloads\packages\TestProjectWPF.UITests\bin\Debug\TestProjectWPF.UITests.pdb
+C:\Users\Ragheb\Downloads\packages\TestProjectWPF.UITests\bin\Debug\TestProject.Models.dll
+C:\Users\Ragheb\Downloads\packages\TestProjectWPF.UITests\bin\Debug\TestProjectWPF.exe
+C:\Users\Ragheb\Downloads\packages\TestProjectWPF.UITests\bin\Debug\Microsoft.Practices.Prism.Composition.dll
+C:\Users\Ragheb\Downloads\packages\TestProjectWPF.UITests\bin\Debug\Microsoft.Practices.Prism.PubSubEvents.dll
+C:\Users\Ragheb\Downloads\packages\TestProjectWPF.UITests\bin\Debug\TestProject.Services.dll
+C:\Users\Ragheb\Downloads\packages\TestProjectWPF.UITests\bin\Debug\Autofac.dll
+C:\Users\Ragheb\Downloads\packages\TestProjectWPF.UITests\bin\Debug\Microsoft.Practices.Prism.Mvvm.dll
+C:\Users\Ragheb\Downloads\packages\TestProjectWPF.UITests\bin\Debug\TestProject.Data.dll
+C:\Users\Ragheb\Downloads\packages\TestProjectWPF.UITests\bin\Debug\Microsoft.Practices.Prism.SharedInterfaces.dll
+C:\Users\Ragheb\Downloads\packages\TestProjectWPF.UITests\bin\Debug\EntityFramework.dll
+C:\Users\Ragheb\Downloads\packages\TestProjectWPF.UITests\bin\Debug\TestProject.Models.pdb
+C:\Users\Ragheb\Downloads\packages\TestProjectWPF.UITests\bin\Debug\TestProjectWPF.pdb
+C:\Users\Ragheb\Downloads\packages\TestProjectWPF.UITests\bin\Debug\TestProject.Services.pdb
+C:\Users\Ragheb\Downloads\packages\TestProjectWPF.UITests\bin\Debug\TestProject.Data.pdb
+C:\Users\Ragheb\Downloads\packages\TestProjectWPF.UITests\bin\Debug\EntityFramework.xml
+C:\Users\Ragheb\Downloads\packages\TestProjectWPF.UITests\obj\Debug\TestProjectWPF.UITests.dll
+C:\Users\Ragheb\Downloads\packages\TestProjectWPF.UITests\obj\Debug\TestProjectWPF.UITests.pdb
+C:\Users\Ahmed ragheb\Documents\Visual Studio 2012\Projects\TestProjectWPF\TestProjectWPF.UITests\bin\Debug\TestProjectWPF.UITests.dll
+C:\Users\Ahmed ragheb\Documents\Visual Studio 2012\Projects\TestProjectWPF\TestProjectWPF.UITests\bin\Debug\TestProjectWPF.UITests.pdb
+C:\Users\Ahmed ragheb\Documents\Visual Studio 2012\Projects\TestProjectWPF\TestProjectWPF.UITests\bin\Debug\TestProject.Models.dll
+C:\Users\Ahmed ragheb\Documents\Visual Studio 2012\Projects\TestProjectWPF\TestProjectWPF.UITests\bin\Debug\TestProjectWPF.exe
+C:\Users\Ahmed ragheb\Documents\Visual Studio 2012\Projects\TestProjectWPF\TestProjectWPF.UITests\bin\Debug\Microsoft.Practices.Prism.Composition.dll
+C:\Users\Ahmed ragheb\Documents\Visual Studio 2012\Projects\TestProjectWPF\TestProjectWPF.UITests\bin\Debug\Microsoft.Practices.Prism.PubSubEvents.dll
+C:\Users\Ahmed ragheb\Documents\Visual Studio 2012\Projects\TestProjectWPF\TestProjectWPF.UITests\bin\Debug\TestProject.Services.dll
+C:\Users\Ahmed ragheb\Documents\Visual Studio 2012\Projects\TestProjectWPF\TestProjectWPF.UITests\bin\Debug\Autofac.dll
+C:\Users\Ahmed ragheb\Documents\Visual Studio 2012\Projects\TestProjectWPF\TestProjectWPF.UITests\bin\Debug\Microsoft.Practices.Prism.Mvvm.dll
+C:\Users\Ahmed ragheb\Documents\Visual Studio 2012\Projects\TestProjectWPF\TestProjectWPF.UITests\bin\Debug\TestProject.Data.dll
+C:\Users\Ahmed ragheb\Documents\Visual Studio 2012\Projects\TestProjectWPF\TestProjectWPF.UITests\bin\Debug\Microsoft.Practices.Prism.SharedInterfaces.dll
+C:\Users\Ahmed ragheb\Documents\Visual Studio 2012\Projects\TestProjectWPF\TestProjectWPF.UITests\bin\Debug\EntityFramework.dll
+C:\Users\Ahmed ragheb\Documents\Visual Studio 2012\Projects\TestProjectWPF\TestProjectWPF.UITests\bin\Debug\TestProject.Models.pdb
+C:\Users\Ahmed ragheb\Documents\Visual Studio 2012\Projects\TestProjectWPF\TestProjectWPF.UITests\bin\Debug\TestProjectWPF.pdb
+C:\Users\Ahmed ragheb\Documents\Visual Studio 2012\Projects\TestProjectWPF\TestProjectWPF.UITests\bin\Debug\TestProject.Services.pdb
+C:\Users\Ahmed ragheb\Documents\Visual Studio 2012\Projects\TestProjectWPF\TestProjectWPF.UITests\bin\Debug\TestProject.Data.pdb
+C:\Users\Ahmed ragheb\Documents\Visual Studio 2012\Projects\TestProjectWPF\TestProjectWPF.UITests\bin\Debug\EntityFramework.xml
+C:\Users\Ahmed ragheb\Documents\Visual Studio 2012\Projects\TestProjectWPF\TestProjectWPF.UITests\obj\Debug\TestProjectWPF.UITests.csprojResolveAssemblyReference.cache
+C:\Users\Ahmed ragheb\Documents\Visual Studio 2012\Projects\TestProjectWPF\TestProjectWPF.UITests\obj\Debug\TestProjectWPF.UITests.dll
+C:\Users\Ahmed ragheb\Documents\Visual Studio 2012\Projects\TestProjectWPF\TestProjectWPF.UITests\obj\Debug\TestProjectWPF.UITests.pdb

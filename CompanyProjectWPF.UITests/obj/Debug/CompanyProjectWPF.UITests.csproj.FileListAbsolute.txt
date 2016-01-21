@@ -1,0 +1,2 @@
+C:\Users\Ahmed ragheb\Documents\Visual Studio 2012\Projects\TestProjectWPF\TestProjectWPF.UITests\obj\Debug\CompanyProjectWPF.UITests.csprojResolveAssemblyReference.cache
+C:\Users\Ahmed ragheb\Documents\Visual Studio 2012\Projects\TestProjectWPF\CompanyProjectWPF.UITests\obj\Debug\CompanyProjectWPF.UITests.csprojResolveAssemblyReference.cache

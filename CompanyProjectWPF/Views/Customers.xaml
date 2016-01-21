@@ -1,0 +1,153 @@
+﻿<UserControl x:Class="CompanyProjectWPF.Views.Customers"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="380" d:DesignWidth="500">
+    <Grid>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="150" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Label Content="Customers" />
+            <ComboBox x:Name="CustomersCombo"
+                      Grid.Column="1"
+                      Width="250"
+                      HorizontalAlignment="Left"
+                      ItemsSource="{Binding Customers}"
+                      DisplayMemberPath="FullName"
+                      SelectedValuePath="Id" 
+                      SelectedItem="{Binding SelectedCustomer, Mode=TwoWay}"
+                       />
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="2*" />
+            </Grid.ColumnDefinitions>
+            <Label Content="First Name:" />
+            <TextBox Grid.Column="1"
+                     Text="{Binding SelectedCustomer.LastName}" />
+            <Label Content="Last Name:"
+                   Grid.Column="2" />
+            <TextBox Grid.Column="3"
+                     Text="{Binding SelectedCustomer.FirstName}" />
+            <Label Content="Email:"
+                   Grid.Column="4" />
+            <TextBox Grid.Column="5"
+                     Text="{Binding SelectedCustomer.Email}" />
+        </Grid>
+        
+        <StackPanel Grid.Row="2">
+
+            <DataGrid ItemsSource="{Binding SelectedCustomer.Orders}"
+                      IsSynchronizedWithCurrentItem="True" AutoGenerateColumns="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn x:Name="Id"
+                                    Binding="{Binding Id}"
+                                    Header="ID"
+                                    Width="0.2*" />
+                    <DataGridTextColumn x:Name="CustomerId"
+                                    Binding="{Binding CustomerId}"
+                                    Header="Customer Id"
+                                    Width="0.2*" />
+                    <DataGridTextColumn x:Name="OrderDate"
+                                    Binding="{Binding OrderDate}"
+                                    Header="Order Date"
+                                    Width="0.2*" />
+                    <DataGridTextColumn x:Name="ItemsTotal"
+                                    Binding="{Binding ItemsTotal}"
+                                    Header="Items Total"
+                                    Width="0.2*" />
+                    <DataGridTextColumn x:Name="Phone"
+                                    Binding="{Binding Phone}"
+                                    Header="Phone"
+                                    Width="0.2*" />
+                </DataGrid.Columns>
+                
+                <DataGrid.RowStyle>
+                    <Style TargetType="DataGridRow">
+                        <Style.Triggers>
+                            <Trigger Property="IsSelected"
+                                     Value="True">
+                                <Setter Property="BorderBrush"
+                                        Value="Blue" />
+                                <Setter Property="BorderThickness"
+                                        Value="2" />
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </DataGrid.RowStyle>
+            </DataGrid>
+
+        </StackPanel>
+        
+
+        <Grid Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Label Content="Order ID:" />
+            <Label Content="{Binding NewOrder.Id}" Grid.Column="1" />
+            <Label Content="Order Date:" Grid.Row="1" />
+            <TextBox Grid.Column="1" Grid.Row="1" Width="200" HorizontalAlignment="Left"
+                     Text="{Binding NewOrder.OrderDate, TargetNullValue='Not Set', FallbackValue='No Value'}" />
+            <Label Content="Order Total:"
+                   Grid.Row="2" />
+            <TextBox Grid.Column="1"
+                     Grid.Row="2" Width="200" HorizontalAlignment="Left"
+                     Text="{Binding NewOrder.ItemsTotal}" />
+            <Label Content="Order Status:"
+                   Grid.Row="3" />
+            <ComboBox x:Name="OrderStatusCombo"
+                      ItemsSource="{Binding OrderStatuses}"
+                      DisplayMemberPath="Name"
+                      SelectedValuePath="Id"
+                      SelectedValue="{Binding Path=NewOrder.OrderStatusId, Mode=TwoWay}"
+                      Grid.Column="1"
+                      Grid.Row="3"
+                      Width="200"
+                      HorizontalAlignment="Left" />
+            
+            <StackPanel Orientation="Horizontal"
+                        Margin="-4,5,0,0"
+                        Grid.Row="4"
+                        Grid.Column="1"
+                        HorizontalAlignment="left">
+                <Button Command="{Binding SaveCommand}"
+                        Content="Add"
+                        Width="75"
+                        Margin="5"
+                        VerticalAlignment="Top" />
+                <Button Command="{Binding CancelCommand}"
+                        Content="Cancel"
+                        Width="75"
+                        Margin="5"
+                        VerticalAlignment="Top" />
+                
+            </StackPanel>
+        </Grid>
+
+    </Grid>
+</UserControl>

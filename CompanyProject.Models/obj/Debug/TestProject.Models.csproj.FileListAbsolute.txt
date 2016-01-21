@@ -1,0 +1,4 @@
+C:\Users\Ahmed ragheb\Documents\Visual Studio 2012\Projects\TestProjectWPF\TestProject.Models\bin\Debug\TestProject.Models.dll
+C:\Users\Ahmed ragheb\Documents\Visual Studio 2012\Projects\TestProjectWPF\TestProject.Models\bin\Debug\TestProject.Models.pdb
+C:\Users\Ahmed ragheb\Documents\Visual Studio 2012\Projects\TestProjectWPF\TestProject.Models\obj\Debug\TestProject.Models.dll
+C:\Users\Ahmed ragheb\Documents\Visual Studio 2012\Projects\TestProjectWPF\TestProject.Models\obj\Debug\TestProject.Models.pdb
